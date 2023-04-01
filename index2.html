@@ -30,7 +30,13 @@
 
 <body>
     <a-scene embedded arjs>
-        <model-viewer position="1 0.75 -3" radius="0.5" src="https://dl.dropbox.com/s/wqcx9rl6gyov3pn/apple.glb?dl=0" camera-controls></model-viewer>
+        <!-- <model-viewer position="1 0.75 -3" radius="0.5" src="https://dl.dropbox.com/s/wqcx9rl6gyov3pn/apple.glb?dl=0" camera-controls></model-viewer> -->
+            <a-entity
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          gltf-model="https://dl.dropbox.com/s/wqcx9rl6gyov3pn/apple.glb?dl=0"
+          camera-controls
+        ></a-entity>
     </a-scene>
     <a-entity camera></a-entity>
 </body>
